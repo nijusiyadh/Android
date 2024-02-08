@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Enter Number"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Submit"/>
+    <TextView
+        android:id="@+id/out"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:textSize="40dp"
+        android:hint="Result display here...."/>
+
+</LinearLayout>
